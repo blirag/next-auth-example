@@ -1,34 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Autenticação com Next-Auth
 
-## Getting Started
+Nesse projeto montei 2 exemplos de autenticação social com next auth, sendo um com o Github e outro com o Google
 
-First, run the development server:
+### Como rodar o projeto:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Variáveis de ambiente:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Lembre-se de setar as variáveis de ambiente para funcionar corretamente:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- CLIENT_ID - do provider que você for utilizar
+- CLIENT_SECRET - do provider que você for utilizar
+- NEXTAUTH_SECRET - uma chave aleatória da sua preferência
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Verifique todos os providers disponíveis: https://next-auth.js.org/providers/
 
-## Learn More
+### Produção:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Subi esse projeto na vercel, caso queira ver ele em produção:
+https://next-auth-example-sepia.vercel.app/

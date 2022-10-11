@@ -4,7 +4,7 @@ import { signIn, signOut, useSession } from 'next-auth/react';
 
 export default function Home() {
 	const { data: session } = useSession();
-	console.log(session);
+
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -20,8 +20,9 @@ export default function Home() {
 					<button className={styles.button} onClick={() => signIn('github')}>
 						Logar com Github
 					</button>
-					<button className={styles.button} onClick={() => signIn('google')}>
-						Logar com Google
+					<p>ou</p>
+					<button className={styles.button} onClick={() => signIn('facebook')}>
+						Logar com Facebook
 					</button>
 				</div>
 

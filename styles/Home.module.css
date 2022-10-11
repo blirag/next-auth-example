@@ -23,6 +23,10 @@
 	margin-top: 1.2rem;
 }
 
+.wrapper p {
+	font-size: 1.2rem;
+}
+
 .button {
 	padding: 0.8rem 2rem;
 	background: #5a6ad0;
