@@ -20,10 +20,10 @@ export default function Home() {
 					<button className={styles.button} onClick={() => signIn('github')}>
 						Logar com Github
 					</button>
-					<p>ou</p>
+					{/* <p>ou</p>
 					<button className={styles.button} onClick={() => signIn('facebook')}>
 						Logar com Facebook
-					</button>
+					</button> */}
 				</div>
 
 				<div className={styles.session}>
