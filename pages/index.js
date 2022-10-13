@@ -14,7 +14,7 @@ export default function Home() {
 			</Head>
 
 			<main className={styles.main}>
-				<h1>Login Social - Exemplos</h1>
+				<h1>Login Social - Exemplo</h1>
 
 				<div className={styles.wrapper}>
 					<button className={styles.button} onClick={() => signIn('github')}>
